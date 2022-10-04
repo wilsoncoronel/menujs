@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.listaPadre{
+   float: left; 
+   list-style-type: none;
+   padding: 0;
+   position: relative;
+   left: 50%;
+   font-family: 'Lobster', cursive;
+}
+
+.listaHijo{
+   float: left;
+   position: relative;
+   right: 50%;
+   padding: 10px 20px;
+   background-color: #2F4F4F;
+   color: white;
+}
+
+.listaHijo:hover{
+    background-color: #20B2AA;
+    cursor: pointer;
+}
